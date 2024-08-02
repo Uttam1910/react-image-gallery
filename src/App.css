@@ -1,0 +1,31 @@
+/* src/App.css */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.gallery img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.image-view {
+  text-align: center;
+}
+
+.image-view img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-view h1 {
+  margin-top: 20px;
+}
+
+.image-view p {
+  margin-top: 10px;
+  font-size: 16px;
+}
