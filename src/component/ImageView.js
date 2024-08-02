@@ -9,7 +9,7 @@ const ImageView = () => {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        axios.get(`https://api.slingacademy.com/v1/sample-data/photos`)
+        axios.get(`https://api.slingacademy.com/v1/sample-data/photos/${id}`)
             .then(response => {
                 setImage(response.data.photo);
             })

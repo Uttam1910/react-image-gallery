@@ -8,9 +8,9 @@ const Gallery = () => {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        axios.get('https://api.slingacademy.com/v1/sample-data/photos')
+        axios.get('https://api.slingacademy.com/v1/sample-data/photos?offset=0&limit=20')
             .then(response => {
-                setImages(response.data.photos.slice(0, 20));
+                setImages(response.data.photos);
             })
             .catch(error => {
                 setError('Failed to fetch images');
@@ -33,3 +33,4 @@ const Gallery = () => {
 };
 
 export default Gallery;
+    
