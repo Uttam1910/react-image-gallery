@@ -95,6 +95,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [React Router DOM](https://reactrouter.com/)
 - [Sling Academy API](https://www.slingacademy.com/article/sample-photos-free-fake-rest-api-for-practice/)
 
-EOF
-
-echo "README.md file has been created successfully."
