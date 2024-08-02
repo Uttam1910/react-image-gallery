@@ -67,7 +67,23 @@ Make sure you have the following installed:
 5. Open your browser and visit `http://localhost:3000` to see the application in action.
 
 ## Project Structure
-
+react-image-gallery/
+├── public/
+│ ├── index.html
+│ └── ...
+├── src/
+│ ├── components/
+│ │ ├── Gallery.js
+│ │ ├── ImageView.js
+│ │ └── Navbar.js
+│ ├── App.css
+│ ├── App.js
+│ ├── index.js
+│ └── ...
+├── .gitignore
+├── package.json
+├── README.md
+└── ...
 
 ## Components
 
