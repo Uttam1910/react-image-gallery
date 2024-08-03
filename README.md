@@ -1,6 +1,8 @@
 # React Image Gallery
 
 ![Gallery Screenshot]![image](https://github.com/user-attachments/assets/c33a1e5c-e15c-4e58-b87f-4f8566dfc121)
+![image](https://github.com/user-attachments/assets/861b7473-2785-4b5c-8d2f-d316668dd2c9)
+
 
 
 ## Overview
@@ -40,7 +42,7 @@ Make sure you have the following installed:
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/uttam/react-image-gallery.git
+    git clone https://github.com/uttam1910/react-image-gallery.git
     ```
 
 2. Navigate to the project directory:
