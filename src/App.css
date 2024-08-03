@@ -61,18 +61,24 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f0f2f5;
+  background-color: #f8fafc;
   padding: 20px;
+  font-family: 'Arial', sans-serif;
 }
 
 .image-view-content {
   display: flex;
   background-color: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
   overflow: hidden;
-  max-width: 800px;
+  max-width: 900px;
   width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.image-view-content:hover {
+  transform: scale(1.02);
 }
 
 .image-view-image {
@@ -81,36 +87,43 @@ body {
 }
 
 .image-view-info {
-  padding: 20px;
+  padding: 30px;
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .image-view-title {
-  font-size: 24px;
-  margin-bottom: 10px;
-  color: #333;
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #222;
+  font-weight: bold;
 }
 
 .image-view-description {
-  font-size: 16px;
-  color: #555;
+  font-size: 18px;
+  color: #444;
+  line-height: 1.6;
 }
 
 .back-button {
   align-self: flex-start;
   margin-bottom: 20px;
-  padding: 10px 20px;
-  font-size: 16px;
+  padding: 12px 24px;
+  font-size: 18px;
   color: #fff;
   background-color: #007bff;
   border: none;
-  border-radius: 5px;
+  border-radius: 6px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .back-button:hover {
   background-color: #0056b3;
 }
+
 
 
 /* About Section Styles */
