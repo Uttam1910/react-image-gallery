@@ -124,8 +124,6 @@ body {
   background-color: #0056b3;
 }
 
-
-
 /* About Section Styles */
 .about {
   padding: 20px;
@@ -140,4 +138,54 @@ body {
 .about p {
   font-size: 1.2em;
   color: #666;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 992px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .image-view-content {
+    flex-direction: column;
+  }
+
+  .image-view-image, .image-view-info {
+    width: 100%;
+  }
+
+  .image-view-info {
+    padding: 20px;
+  }
+
+  .image-view-title {
+    font-size: 24px;
+  }
+
+  .image-view-description {
+    font-size: 16px;
+  }
+
+  .back-button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
 }
