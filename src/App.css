@@ -55,33 +55,63 @@ body {
 }
 
 /* ImageView Styles */
-.image-view {
+.image-view-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  height: 100vh;
+  background-color: #f0f2f5;
   padding: 20px;
 }
 
-.image-view img {
-  max-width: 80%;
-  height: auto;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+.image-view-content {
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 800px;
+  width: 100%;
 }
 
-.image-view h1 {
-  font-size: 2em;
+.image-view-image {
+  width: 50%;
+  object-fit: cover;
+}
+
+.image-view-info {
+  padding: 20px;
+  width: 50%;
+}
+
+.image-view-title {
+  font-size: 24px;
   margin-bottom: 10px;
-  text-align: center;
+  color: #333;
 }
 
-.image-view p {
-  font-size: 1.2em;
-  color: #666;
-  text-align: center;
+.image-view-description {
+  font-size: 16px;
+  color: #555;
 }
+
+.back-button {
+  align-self: flex-start;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
 
 /* About Section Styles */
 .about {
