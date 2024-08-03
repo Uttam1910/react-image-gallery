@@ -42,7 +42,7 @@ Make sure you have the following installed:
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/uttam/react-image-gallery.git
+    git clone https://github.com/uttam1910/react-image-gallery.git
     ```
 
 2. Navigate to the project directory:
