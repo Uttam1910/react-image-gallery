@@ -1,4 +1,4 @@
-// src/components/Navbar.js
+// src/components/Navbar.js - Optimized with Vite dev server HMR
 import React from 'react';
 import { Link } from 'react-router-dom';
 // import './Navbar.css';

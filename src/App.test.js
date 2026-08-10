@@ -1,8 +1,9 @@
+// src/App.test.js
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders Lumora brand elements', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const brandElements = screen.getAllByText(/LUMORA/i);
+  expect(brandElements.length).toBeGreaterThan(0);
 });
