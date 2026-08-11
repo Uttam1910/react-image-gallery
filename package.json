@@ -14,9 +14,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "dev": "node node_modules/vite/bin/vite.js",
+    "dev": "vite || node node_modules/vite/bin/vite.js",
     "start": "react-scripts start",
-    "build": "node node_modules/vite/bin/vite.js build",
+    "build": "vite build || node node_modules/vite/bin/vite.js build",
     "build:cra": "react-scripts build",
     "test": "node node_modules/react-scripts/bin/react-scripts.js test --watchAll=false",
     "eject": "react-scripts eject"
